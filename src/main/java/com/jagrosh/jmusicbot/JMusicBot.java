@@ -83,8 +83,8 @@ public class JMusicBot
         Bot bot = new Bot(waiter, config, settings);
         
         AboutCommand aboutCommand = new AboutCommand(Color.BLUE.brighter(),
-                                "a music bot that is [easy to host yourself!](https://github.com/jagrosh/MusicBot) (v"+version+")",
-                                new String[]{"High-quality music playback", "FairQueue™ Technology", "Easy to host yourself"},
+                                "gangbangin', boppin', set-trippin' music bot hosted by [kiwi!](https://github.com/jagrosh/MusicBot) (v"+version+")",
+                                new String[]{"Boolin-ass Booty Jams Playback", "Non-tyrannical Queue System", "Accepts food stamps and EBT"},
                                 RECOMMENDED_PERMS);
         aboutCommand.setIsAuthor(false);
         aboutCommand.setReplacementCharacter("\uD83C\uDFB6"); // 🎶
